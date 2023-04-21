@@ -1,0 +1,33 @@
+
+
+.bigBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+};
+
+.Metrics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: 10 10 10 10;
+}
+
+.Box {
+   
+  border: 2px solid black;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+};
+
+.quantity {
+  text-align: center;
+};
+
+.type {
+  text-align: center;
+}
