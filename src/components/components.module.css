@@ -1,0 +1,16 @@
+.bigBox {
+    border: 2px solid black;
+   
+    justify-content: center;
+    text-align: center;
+    width:  30vw;
+    min-height: 40vw;
+}
+
+.person {
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    width:  12vw;
+    min-height: 8vw;
+}
