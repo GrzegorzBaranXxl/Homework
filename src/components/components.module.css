@@ -1,6 +1,6 @@
 .bigBox {
-    border: 2px solid black;
-   
+    border: 5px solid black;
+   position: absolut;
     justify-content: center;
     text-align: center;
     width:  30vw;
@@ -8,9 +8,40 @@
 }
 
 .person {
-    border: 2px solid black;
+    border: 5px solid black;
     justify-content: center;
     text-align: center;
     width:  12vw;
     min-height: 8vw;
+}
+
+.photo{
+    
+   border: "5px solid black";
+   border-radius: 50px;
+}
+
+.manyBox {
+    border: "5px solid black";
+    display: flex;
+    justify-content: space-between;
+    top: 100%;
+    
+    border: 5 solid black;
+}
+
+.boxOne {
+    border: "5px solid black";
+    
+    
+}
+.boxTwo {
+    border: "5px solid black";
+    
+    
+}
+.boxThree {
+    border: "5px solid black";
+    
+    
 }
