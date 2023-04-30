@@ -11,7 +11,9 @@ return (
     <div className={classes.bigBox} >
     <Logo />
     <Details />
-    <Metrics />
+        <div className={classes.Botton}>
+         <Metrics />
+        </div>
     </div>
 )
 };

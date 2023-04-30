@@ -5,9 +5,12 @@ export const Details =() =>{
 
     return(
         <div className={classes.person}>
-        <p><b>Victor Crest</b>  26</p>
+            <form className={classes.data}>
+                <p><b>Victor Crest</b>  26</p>
 
-        <p>London</p>
+                <p>London</p>
+            </form>
+
         </div>
     );
 };

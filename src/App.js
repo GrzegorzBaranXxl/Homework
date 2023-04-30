@@ -5,7 +5,9 @@ import classes from "./App.module.css"
 function App() {
   return (
     <div className={classes.App}>
-      <Profile />
+        <div className={classes.Inner}>
+          <Profile />
+        </div>
     </div>
   );
 }

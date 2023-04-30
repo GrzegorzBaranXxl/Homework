@@ -1,47 +1,60 @@
 .bigBox {
-    border: 5px solid black;
-   position: absolut;
+    display: flex;
+    flex-direction: column;
+    
+    
     justify-content: center;
     text-align: center;
     width:  30vw;
     min-height: 40vw;
-}
+    margin: auto;
+    margin-top: 10px;
+};
 
 .person {
-    border: 5px solid black;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    width:  12vw;
-    min-height: 8vw;
-}
+   
+};
+
+.data{
+display: flex;
+justify-content: center;
+text-align: center;
+width:  12vw;
+min-height: 8vw;
+border: 5px solid black;
+
+};
 
 .photo{
-    
-   border: "5px solid black";
-   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   border: 5px solid black;
+   
+};
+
+.Botton{
+width: auto;
+height: auto;
+border: 4px solid black;
 }
 
 .manyBox {
-    border: "5px solid black";
     display: flex;
     justify-content: space-between;
-    top: 100%;
+    background-color: aquamarine;
     
-    border: 5 solid black;
-}
+};
 
 .boxOne {
-    border: "5px solid black";
-    
-    
-}
+   
+};
 .boxTwo {
-    border: "5px solid black";
     
     
-}
+};
 .boxThree {
-    border: "5px solid black";
-    
-    
-}
+   
+};

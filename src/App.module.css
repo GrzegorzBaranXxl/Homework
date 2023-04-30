@@ -2,11 +2,21 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   top: 0px;
    
-    background-color: rgba(55, 129, 226, 0.925);
-    width: 100vw;
-    height: 100vw;
-    border: 5px solid black;
+ }
+   
+
+
+ .Inner{
+   
+   border: 4px solid black;
+   background-color: aquamarine;
+   width: 34vw;
+   height: 45vw;
 
  };
-
